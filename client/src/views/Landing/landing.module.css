@@ -1,0 +1,43 @@
+.generalContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.container {
+    border: 3px solid #122620;
+    background-color: #b68d40;
+    padding: 20px;
+    display: inline-block;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #d6ad60;
+    background-color: #122620;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  .image {
+    height: 120px;
+    width: 400px;
+    margin-bottom: 100px;
+  }
+  .button:hover {
+    background-color: #d6ad60;
+    color: #122620;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

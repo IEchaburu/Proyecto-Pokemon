@@ -26,6 +26,7 @@ const getPokemonsById = async (id, origin) => {
             defense: dbPokemon.dataValues.defense,
             speed: dbPokemon.dataValues.speed,
             image: dbPokemon.dataValues.image,
+            types: dbPokemon.types.map((type) => type.name),
             createdInDb: dbPokemon.created,
         }
 

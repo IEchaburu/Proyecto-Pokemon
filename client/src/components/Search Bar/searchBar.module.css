@@ -1,0 +1,22 @@
+.input {
+  border-radius: 10px;
+  width: 70%; 
+  padding: 8px; 
+}
+
+.container {
+  padding: 10px 0;
+  height: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  color: #d6ad60;
+  background-color: #122620;
+  border-radius: 15px;
+  padding: 8px 12px; 
+  margin: 0 6px; 
+  cursor: pointer;
+}

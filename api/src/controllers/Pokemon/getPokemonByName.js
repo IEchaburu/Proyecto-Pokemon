@@ -26,6 +26,7 @@ const getPokemonByName = async (name) => {
           defense: pokeNameDb.defense,
           speed: pokeNameDb.speed,
           image: pokeNameDb.image,
+          types: pokeNameDb.types.map((type) => type.name),
           createdInDb: pokeNameDb.createdInDb,
         };
     }

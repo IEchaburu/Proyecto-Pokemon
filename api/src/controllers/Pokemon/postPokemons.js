@@ -1,5 +1,5 @@
 const { Pokemon, Type } = require("../../db");
-//const defaultImage = require('../../utility')
+defaultImage = 'acordarme de poner una URL'
 
 let createPokemon = async (id, name, image, health, attack, defense, speed, height, weight, types) => {
   
@@ -19,8 +19,11 @@ let createPokemon = async (id, name, image, health, attack, defense, speed, heig
       },
     });
     
-    await newPokemon.addType(typeDb);
+    //await newPokemon.addType(typeDb);
     //tipo = typeDb.map((elem) => elem.name);
+    for (const type of typeDb) {
+      await newPokemon.addType(type);
+    }
 
     //console.log(newPokemon);
     console.log(typeDb, 'este es typeDb');

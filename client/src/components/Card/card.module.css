@@ -1,0 +1,41 @@
+.container {
+    border: 3px solid #122620;
+    background-color: #b68d40;
+    width: 280px;
+    height: fit-content;
+    display: inline-block;
+    margin-top: 25px;
+    height: auto;
+  }
+  .p {
+    text-transform: uppercase;
+    background-color: #122620;
+    color: #d6ad60;
+  }
+  .name {
+    text-transform: uppercase;
+    background-color: #122620;
+    color: #d6ad60;
+  }
+  .container img {
+    max-width: 100%;
+  }
+  .image {
+    filter: drop-shadow(10px 5px 8px);
+  }
+  .idContainer {
+    color: #d6ad60;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .id {
+    background-color: #122620;
+    padding: 8px;
+    border-radius: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

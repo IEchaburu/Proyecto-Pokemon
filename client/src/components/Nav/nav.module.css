@@ -1,0 +1,32 @@
+.container {
+    background-color: #b68d40;
+    border-bottom: 3px solid #122620; 
+    height: 60px;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  a {
+    color: #d6ad60;
+    font-weight: 700;
+  }
+  a:hover {
+    color: #122620;
+    font-weight: 700;
+  }
+  .botones {
+    background-color: #122620;
+    border-radius: 15px;
+    padding: 8px 12px;
+    margin: 15px;
+    cursor: pointer; 
+  }
+  .botones:hover {
+    border: 1px solid #122620;
+    background-color: #d6ad60;
+    transition: all 0.4s ease-in-out;
+  }

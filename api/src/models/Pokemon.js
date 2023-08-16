@@ -1,6 +1,8 @@
 const { DataTypes } = require('sequelize');
 // Exportamos una funcion que define el modelo
 // Luego le injectamos la conexion a sequelize.
+// defino la estructura y las propiedades de la tabla "pokemon" en la base de datos, 
+//lo que permite interactuar con los datos de los Pokémon de manera estructurada y eficiente.
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('pokemon', {

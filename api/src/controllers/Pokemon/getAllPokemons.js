@@ -3,7 +3,7 @@ const { Pokemon, Type } = require("../../db");
 
 // OBTENEMOS LOS POKEMONS DE LA API
 const getApiPokemons = async () => {
-    const url = `https://pokeapi.co/api/v2/pokemon?limit=20`;
+    const url = `https://pokeapi.co/api/v2/pokemon?limit=36`;
     const resultApi = await axios.get(url);
     
     const apiPokemons = resultApi.data.results;
